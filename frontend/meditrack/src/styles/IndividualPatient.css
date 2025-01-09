@@ -1,0 +1,123 @@
+.individual-patient-container {
+  margin: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  display: block;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.patient-condition {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #e7f3ff;
+  border-radius: 6px;
+}
+
+.patient-condition button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.patient-condition button:hover {
+  background-color: #45a049;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.action-btn {
+  padding: 10px 20px;
+  background-color: #0c3e74;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.card-header p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.card-body {
+  display: none;
+  padding: 15px;
+  font-size: 1em;
+  color: #555;
+}
+
+.card-body.show {
+  display: block;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.card-footer button {
+  padding: 8px 16px;
+ 
+  color: white;
+  border: none;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.del-btn{
+  background-color: #ac0505;
+}
+
+.view-btn{
+  background-color: #eb954a;
+}
+.card-footer button:hover {
+  background-color: #e84e32;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

@@ -1,0 +1,71 @@
+/* Styles for registration forms */
+/* Container for centering and setting width */
+.registration-container {
+    width: 370px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+
+.registration-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .registration-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .registration-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .registration-input,
+  .registration-select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .registration-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #17468b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .registration-button:hover {
+    background-color: #4566a0;
+  }
+  
+  .registration-message {
+    text-align: center;
+    color: #d9534f;
+    margin-bottom: 20px;
+  }
+  
+  .patient-registration-form .registration-heading {
+    color: #007bff;
+  }
+  
+  .doctor-registration-form .registration-heading {
+    color: #28a745;
+  }
+  

@@ -1,0 +1,84 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  width: 700px; /* Adjust card width as needed */
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+
+.photo-container {
+  width: 250px; /* Adjust width as needed */
+  background: linear-gradient(to right, #073a71, #5cd1ff); /* Blue gradient background */
+  border-radius: 10px 0 0 10px; /* Rounded corner on the left side */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-email {
+  text-align: center;
+  margin-top: 10px;
+  color:#fff
+}
+
+
+.details-container {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+}
+
+.edit-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  color: black;
+
+  top: 20px;
+  right: 20px;
+}
+
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  color: gray;
+}
+
+.profile-info strong { /* To add space between the label and content */
+color: black;
+}
+
+
+.name { /* To add space between the label and content */
+  color: rgb(255, 255, 255);
+  font-size: large;
+  }
+
+.profile-info div {
+  display: flex;
+  gap: 15px; /* Adds space between label and content */
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}

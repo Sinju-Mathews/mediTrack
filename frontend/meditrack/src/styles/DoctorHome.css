@@ -1,0 +1,110 @@
+/* General Layout */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #509de6;
+  }
+  
+  .doctor-home {
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-section {
+    margin-top: -70px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    background-color: #ffffff;
+  }
+  
+  .left-half {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .doctor-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .right-half {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-half h1 {
+    font-size: 3rem;
+    color: #10314e;
+  }
+  
+  .quote {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #555;
+    font-style: italic;
+  }
+  
+  .my-patients-section {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .my-patients-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .patient-card {
+    text-align: center;
+    padding: 15px;
+    background: #bfd7ec60;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .patient-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .patient-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .patient-card h3 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .patient-card p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  
+  /* Navbar Styling */
+  
+  
+  /* Content Styling */
+  .content {
+    margin-top: 2rem;
+  }
+  
+  .content h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 1rem;
+  }  
+  .react-multi-carousel-track {
+    gap:20px;
+  }

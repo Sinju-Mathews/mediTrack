@@ -1,0 +1,105 @@
+/* General container styling */
+body {
+  padding-top: 80px; /* To account for navbar or fixed positioning */
+}
+.update-profile-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px; 
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  border-radius: 16px;
+  box-shadow: 8px 8px 15px rgba(10, 21, 139, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.7);
+  
+}
+
+/* Heading styling */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #05235b;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Error message */
+.error-message {
+  color: #e74c3c;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+form label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Input and textarea styling */
+form select,form input, form textarea {
+  padding: 12px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset 2px 2px 5px rgba(9, 21, 156, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.7);
+}
+
+form select:focus,form input:focus, form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit button styling */
+.update-button {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(145deg, #007bff, #073a71);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 3px 3px 6px rgba(32, 36, 255, 0.274), -3px -3px 6px rgba(255, 255, 255, 0.2);
+}
+
+.update-button:hover {
+  background: linear-gradient(145deg, #073a71, #007bff);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4), -3px -3px 8px rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .update-profile-container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  form label {
+    font-size: 0.9rem;
+  }
+
+  .update-button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}

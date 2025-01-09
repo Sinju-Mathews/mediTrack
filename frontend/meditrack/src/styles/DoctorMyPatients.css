@@ -1,0 +1,45 @@
+/* DoctorMyPatients.css */
+.doctor-my-patients-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #21407e;
+  }
+  
+  .patients-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .patient-crd {
+    border: 1px solid #ddd;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .patient-crd:hover {
+    transform: scale(1.05);
+  }
+  
+  .patient-name {
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  .patient-info {
+    margin: 10px 0;
+    color: #555;
+  }
+  
